@@ -11,7 +11,6 @@ export default function Header() {
     { name: "ABOUT", href: "#about" },
     { name: "SERVICES", href: "#services" },
     { name: "RATES & INSURANCE", href: "#rates" },
-    { name: "DR. MAYA REYNOLDS (REDESIGN)", href: "/maya" },
   ];
 
   return (
@@ -31,11 +30,7 @@ export default function Header() {
               <Link
                 key={link.name}
                 href={link.href}
-                className={
-                  link.href === "/maya"
-                    ? "text-[10px] font-bold leading-6 text-white bg-[#738C8B] px-4 py-2 rounded hover:bg-[#5A6360] transition-colors tracking-[0.15em] uppercase"
-                    : "text-[10px] font-semibold leading-6 text-[#5A6360] hover:text-[#738C8B] transition-colors tracking-[0.15em] uppercase"
-                }
+                className="text-[10px] font-semibold leading-6 text-[#5A6360] hover:text-[#738C8B] transition-colors tracking-[0.15em] uppercase"
               >
                 {link.name}
               </Link>
@@ -78,11 +73,7 @@ export default function Header() {
                 key={link.name}
                 href={link.href}
                 onClick={() => setIsMobileMenuOpen(false)}
-                className={
-                  link.href === "/maya"
-                    ? "text-[12px] font-bold text-white bg-[#738C8B] px-4 py-3 rounded hover:bg-[#5A6360] transition-colors tracking-[0.15em] uppercase block text-center mt-2"
-                    : "text-[12px] font-semibold text-[#5A6360] hover:text-[#738C8B] transition-colors tracking-[0.15em] uppercase block py-2"
-                }
+                className="text-[12px] font-semibold text-[#5A6360] hover:text-[#738C8B] transition-colors tracking-[0.15em] uppercase block py-2"
               >
                 {link.name}
               </Link>
