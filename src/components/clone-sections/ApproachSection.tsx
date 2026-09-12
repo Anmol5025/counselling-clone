@@ -20,9 +20,9 @@ export default function ApproachSection() {
 
           <div className="w-full lg:w-1/2">
             <h2 className="font-serif text-[40px] sm:text-[50px] lg:text-[56px] text-[#2C3330] leading-[1.1]">
-              Honoring where you've been, <br/>
-              <span className="font-script text-[#738C8B] text-[60px] sm:text-[80px] inline-block -ml-2 transform -rotate-2">generating</span> hope <br/>
-              for where you're headed.
+              A quiet, private space designed to feel <br/>
+              <span className="font-script text-[#738C8B] text-[60px] sm:text-[80px] inline-block -ml-2 transform -rotate-2">calming</span> <br/>
+              and grounding.
             </h2>
           </div>
 
