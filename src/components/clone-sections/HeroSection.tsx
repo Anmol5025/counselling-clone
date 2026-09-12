@@ -19,7 +19,7 @@ export default function HeroSection() {
         </div>
 
         {/* Right Content */}
-        <div className="w-full lg:w-[55%] flex flex-col items-start z-10 pt-10 lg:pt-0">
+        <div className="w-full lg:w-[55%] flex flex-col items-start z-10 pt-10 lg:pt-0 pr-8 lg:pr-24 xl:pr-32 2xl:pr-48">
           <p className="text-[11px] font-bold tracking-[0.2em] uppercase text-[#738C8B] mb-6">
             Therapy in Santa Monica, CA & Online
           </p>
