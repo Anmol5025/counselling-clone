@@ -2,19 +2,19 @@ import Image from "next/image";
 
 const services = [
   {
-    title: "Anxiety",
-    description: "Learn to manage chronic worry, panic attacks, and racing thoughts. We will work together to help you regain a sense of calm and control in your daily life.",
-    image: "https://images.unsplash.com/photo-1512314889357-e157c22f938d?q=80&w=2000&auto=format&fit=crop"
-  },
-  {
-    title: "Trauma & EMDR",
-    description: "Safely process single-incident or complex childhood trauma using evidence-based methods like EMDR and body-oriented techniques.",
-    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2000&auto=format&fit=crop"
-  },
-  {
-    title: "Burnout & Life Transitions",
-    description: "Navigate career shifts, relationship changes, or general exhaustion. We'll focus on boundaries, identity, and reconnecting with what matters to you.",
+    title: "Individuals",
+    description: "Navigate life transitions, heal from past experiences, manage stress, and rediscover your authentic voice in a supportive environment.",
     image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=2000&auto=format&fit=crop"
+  },
+  {
+    title: "Couples",
+    description: "Improve communication, navigate conflict constructively, rebuild trust, and deepen your emotional and physical connection.",
+    image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Crew_2016-01-10_%28Unsplash_xCmvrpzctaQ%29.jpg/1280px-Crew_2016-01-10_%28Unsplash_xCmvrpzctaQ%29.jpg"
+  },
+  {
+    title: "Child & Teen Therapy",
+    description: "Support for behavioral issues, school stress, and emotional regulation in a safe and engaging environment.",
+    image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=2000&auto=format&fit=crop"
   }
 ];
 

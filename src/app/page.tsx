@@ -8,6 +8,7 @@ import BannerSection from "@/components/clone-sections/BannerSection";
 import SymptomsSection from "@/components/clone-sections/SymptomsSection";
 import TeamSection from "@/components/clone-sections/TeamSection";
 import ApproachSection from "@/components/clone-sections/ApproachSection";
+import OurOfficeSection from "@/components/sections/OurOfficeSection";
 import SpecialtiesSection from "@/components/clone-sections/SpecialtiesSection";
 import CTASection from "@/components/clone-sections/CTASection";
 
@@ -28,6 +29,7 @@ export default function Home() {
         <SymptomsSection />
         <TeamSection />
         <ApproachSection />
+        <OurOfficeSection />
         <SpecialtiesSection />
         <CTASection />
       </main>
