@@ -1,0 +1,47 @@
+import Image from "next/image";
+
+export default function TeamSection() {
+  return (
+    <section id="about" className="bg-[#1E2420] relative">
+      <div className="flex flex-col-reverse lg:flex-row">
+        
+        {/* Left Content */}
+        <div className="w-full lg:w-[45%] bg-[#29302B] flex items-center justify-center py-24 px-8 lg:px-20">
+          <div className="max-w-md w-full">
+            <p className="text-[11px] font-bold tracking-[0.2em] uppercase text-[#A9927D] mb-6">Meet Dr. Maya Reynolds</p>
+            <h2 className="font-serif text-[40px] sm:text-[50px] text-[#E8E3D9] mb-8 leading-[1.1]">
+              A warm, grounded approach to <br/>
+              <span className="font-serif italic font-light text-[#A9927D]">healing.</span>
+            </h2>
+            <div className="space-y-6 text-[15px] text-[#B5B0A6] font-light leading-[1.8] mb-12">
+              <p>
+                I’m a licensed clinical psychologist based in Santa Monica, California, offering therapy for adults who feel overwhelmed by anxiety, stress, or the lingering effects of past experiences.
+              </p>
+              <p>
+                My approach is warm and collaborative. Sessions are structured enough to feel supportive, while still leaving space for reflection and depth. I integrate evidence-based methods such as CBT, EMDR, and mindfulness to help you understand both the emotional and physiological sides of what you’re experiencing.
+              </p>
+            </div>
+            <a
+              href="#contact"
+              className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[#A9927D] hover:text-[#E8E3D9] transition-colors border-b border-[#C88264] hover:border-[#3B3530] pb-1"
+            >
+              Read my full bio
+            </a>
+          </div>
+        </div>
+
+        {/* Right Image */}
+        <div className="w-full lg:w-[55%] relative h-[500px] lg:h-auto min-h-[600px]">
+          <Image 
+            src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=2000&auto=format&fit=crop" 
+            alt="Dr. Maya Reynolds" 
+            fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" 
+            className="object-cover rounded-2xl"
+          />
+        </div>
+
+      </div>
+    </section>
+  );
+}
