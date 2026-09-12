@@ -18,8 +18,8 @@ export default function Header() {
       <div className="mx-auto flex max-w-[1400px] items-center justify-between px-6 lg:px-12">
         <div className="flex">
           <Link href="/" className="-m-1.5 p-1.5 flex flex-col items-start">
-            <span className="font-serif text-3xl tracking-wide text-[#2C3330] uppercase leading-none">Conejo Valley</span>
-            <span className="font-light text-[10px] tracking-[0.3em] text-[#738C8B] uppercase mt-2">Family Counseling</span>
+            <span className="font-serif text-3xl tracking-wide text-[#2C3330] uppercase leading-none">Dr. Maya Reynolds</span>
+            <span className="font-light text-[10px] tracking-[0.3em] text-[#738C8B] uppercase mt-2">Licensed Clinical Psychologist</span>
           </Link>
         </div>
         

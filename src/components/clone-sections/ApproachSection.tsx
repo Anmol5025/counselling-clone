@@ -19,11 +19,30 @@ export default function ApproachSection() {
           </div>
 
           <div className="w-full lg:w-1/2">
-            <h2 className="font-serif text-[40px] sm:text-[50px] lg:text-[56px] text-[#2C3330] leading-[1.1]">
+            <h2 className="font-serif text-[40px] sm:text-[50px] lg:text-[56px] text-[#2C3330] leading-[1.1] mb-8">
               A quiet, private space designed to feel <br/>
               <span className="font-script text-[#738C8B] text-[60px] sm:text-[80px] inline-block -ml-2 transform -rotate-2">calming</span> <br/>
               and grounding.
             </h2>
+            <div className="space-y-6 text-[15px] text-[#5A6360] font-light leading-[1.8] max-w-lg">
+              <p>
+                I offer both in-person therapy from my Santa Monica office and secure telehealth sessions for clients located anywhere in California.
+              </p>
+              <p>
+                My office features abundant natural light, comfortable seating, and an uncluttered environment. Clients often share that the physical space itself helps them feel a sense of safety, comfort, and privacy the moment they arrive.
+              </p>
+            </div>
+            
+            <div className="flex flex-col gap-3 pt-6 border-t border-gray-200 mt-10 max-w-md">
+              <div className="flex items-center gap-3">
+                <span className="w-2 h-2 rounded-full bg-[#738C8B] block"></span>
+                <span className="text-[13px] font-light text-[#5A6360] tracking-wider uppercase">In-person Sessions (Santa Monica)</span>
+              </div>
+              <div className="flex items-center gap-3">
+                <span className="w-2 h-2 rounded-full bg-[#738C8B] block"></span>
+                <span className="text-[13px] font-light text-[#5A6360] tracking-wider uppercase">Secure Telehealth (California)</span>
+              </div>
+            </div>
           </div>
 
         </div>

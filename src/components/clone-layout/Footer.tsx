@@ -9,11 +9,11 @@ export default function Footer() {
           {/* Brand Info */}
           <div className="space-y-6">
             <h3 className="font-serif text-[28px] tracking-wide text-[#2C3330] uppercase leading-none">
-              Conejo Valley<br />
-              <span className="text-[#738C8B] font-light text-[10px] tracking-[0.3em] mt-2 block">Family Counseling</span>
+              Dr. Maya Reynolds<br />
+              <span className="text-[#738C8B] font-light text-[10px] tracking-[0.3em] mt-2 block">Licensed Clinical Psychologist</span>
             </h3>
             <p className="text-[13px] font-light leading-[1.8] text-[#5A6360] mt-6">
-              Therapy for adults, couples, and professionals in Newbury Park, CA and online throughout California.
+              Therapy for adults in Santa Monica, CA and online throughout California.
             </p>
           </div>
 
@@ -22,9 +22,9 @@ export default function Footer() {
             <h4 className="font-sans font-bold tracking-[0.2em] text-[11px] uppercase mb-8 text-[#738C8B]">Explore</h4>
             <ul className="space-y-4 text-[13px] font-light text-[#5A6360]">
               <li><Link href="/" className="hover:text-[#2C3330] transition-colors">Home</Link></li>
-              <li><Link href="#contact" className="hover:text-[#2C3330] transition-colors">About Us</Link></li>
-              <li><Link href="#contact" className="hover:text-[#2C3330] transition-colors">Services</Link></li>
-              <li><Link href="#contact" className="hover:text-[#2C3330] transition-colors">Rates & Insurance</Link></li>
+              <li><Link href="#about" className="hover:text-[#2C3330] transition-colors">About</Link></li>
+              <li><Link href="#services" className="hover:text-[#2C3330] transition-colors">Services</Link></li>
+              <li><Link href="#rates" className="hover:text-[#2C3330] transition-colors">Rates & Insurance</Link></li>
               <li><Link href="#contact" className="hover:text-[#2C3330] transition-colors">Contact</Link></li>
             </ul>
           </div>
@@ -36,7 +36,7 @@ export default function Footer() {
               <li>
                 1234 Ocean Avenue<br/>
                 Suite 200<br/>
-                Newbury Park, CA 91320
+                Santa Monica, CA 90401
               </li>
               <li className="mt-6">
                 <span className="block mb-1 font-semibold">Hours by appointment</span>
@@ -53,7 +53,7 @@ export default function Footer() {
                 <a href="tel:310-555-0199" className="hover:text-[#2C3330] transition-colors">(310) 555-0199</a>
               </li>
               <li>
-                <a href="mailto:hello@conejovalley.com" className="hover:text-[#2C3330] transition-colors">hello@conejovalley.com</a>
+                <a href="mailto:hello@drmayareynolds.com" className="hover:text-[#2C3330] transition-colors">hello@drmayareynolds.com</a>
               </li>
             </ul>
           </div>
@@ -64,7 +64,7 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="bg-[#516B69] text-white py-6 text-[11px] font-light tracking-wide">
         <div className="mx-auto max-w-[1400px] px-6 lg:px-12 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p>© {new Date().getFullYear()} Conejo Valley Family Counseling. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Dr. Maya Reynolds. All rights reserved.</p>
           <div className="flex gap-6">
             <Link href="#contact" className="hover:text-gray-200 transition-colors">Privacy Policy</Link>
             <Link href="#contact" className="hover:text-gray-200 transition-colors">Terms of Service</Link>

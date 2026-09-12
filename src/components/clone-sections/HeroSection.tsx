@@ -21,13 +21,13 @@ export default function HeroSection() {
         {/* Right Content */}
         <div className="w-full lg:w-[55%] flex flex-col items-start z-10 pt-10 lg:pt-0">
           <p className="text-[11px] font-bold tracking-[0.2em] uppercase text-[#738C8B] mb-6">
-            Counseling in Newbury Park, CA & Online in CA
+            Therapy in Santa Monica, CA & Online
           </p>
           <h1 className="font-serif text-5xl sm:text-6xl lg:text-[72px] leading-[1.1] text-[#2C3330] mb-6 max-w-2xl">
-            Rebuild your foundation on solid ground and finally begin to <span className="font-script text-[#738C8B] inline-block text-7xl sm:text-8xl lg:text-[100px] -ml-2 -mt-4 transform -translate-y-2">thrive.</span>
+            Overcome anxiety, heal from the past, and finally find <span className="font-script text-[#738C8B] inline-block text-7xl sm:text-8xl lg:text-[100px] -ml-2 -mt-4 transform -translate-y-2">peace.</span>
           </h1>
           <p className="text-base font-light leading-8 text-[#5A6360] max-w-lg mb-10">
-            Providing compassionate, evidence-based therapy to help you overcome life's challenges.
+            I help high-achieving adults navigate burnout, perfectionism, and complex trauma. Reconnect with yourself in a grounded, supportive space.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 w-full sm:w-auto mt-2">
@@ -41,7 +41,7 @@ export default function HeroSection() {
               href="#contact"
               className="inline-block px-10 py-4 text-[11px] font-semibold tracking-[0.2em] text-[#738C8B] uppercase hover:text-[#5f7574] transition-all text-center"
             >
-              Read more about us
+              Read more about me
             </a>
           </div>
         </div>
