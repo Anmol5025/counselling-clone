@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Grow My Therapy - Front-End Assessment
+
+This project is a complete front-end development assignment completed for the Grow My Therapy internship. It demonstrates advanced UI/UX cloning capabilities and custom responsive web design using modern React frameworks.
+
+## Project Overview
+
+The assignment consists of two primary objectives that have been seamlessly integrated into a single, high-performance landing page:
+1. Pixel-Perfect Clone: A structural replica of the Conejo Valley Family Counseling landing page, utilizing complex CSS grids, precise typography spacing, and smooth responsive breakpoints.
+2. Custom Redesign (Dr. Maya Reynolds): The original clone structure has been tailored and repurposed for a fictional client, Dr. Maya Reynolds. Her specific branding, imagery, clinical specialties, and "Our Office" section have been injected directly into the layout to create a unique, fully branded experience.
+
+## Tech Stack
+
+- Framework: Next.js 15 (App Router)
+- Styling: Tailwind CSS
+- Language: TypeScript
+- Fonts: Optimized Google Fonts (Cormorant Garamond, Mulish, Caveat) via next/font
+- Deployment: Vercel
+
+## Key Features
+
+- Responsive Design: Fully fluid layout that gracefully degrades from ultra-wide 2XL desktop monitors down to mobile devices.
+- Custom Typography: Integrated serif/sans-serif font pairings with specialized overlapping script elements (simulating the original site's complex design).
+- Optimized Media: Heavy use of next/image with proper sizes and fill properties to guarantee blazing-fast load times and prevent Vercel optimization timeouts.
+- Clean Component Architecture: Modular sections (HeroSection, ServicesSection, OurOfficeSection) ensuring maintainable and scalable code.
 
 ## Getting Started
 
-First, run the development server:
+To run the development server locally:
 
 ```bash
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Open http://localhost:3000 with your browser to see the result.
